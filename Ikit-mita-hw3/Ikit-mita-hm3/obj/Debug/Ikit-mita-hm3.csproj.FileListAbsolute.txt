@@ -1,0 +1,8 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\bin\Debug\Ikit-mita-hm3.exe.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\bin\Debug\Ikit-mita-hm3.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\bin\Debug\Ikit-mita-hm3.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\bin\Debug\ClassLibraryIkit-mita-hm3.dll
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\bin\Debug\ClassLibraryIkit-mita-hm3.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\obj\Debug\Ikit-mita-hm3.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\obj\Debug\Ikit-mita-hm3.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Ikit-mita-hm3\obj\Debug\Ikit-mita-hm3.pdb
