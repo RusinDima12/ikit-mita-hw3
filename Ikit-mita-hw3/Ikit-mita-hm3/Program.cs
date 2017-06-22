@@ -12,29 +12,27 @@ namespace Ikit_mita_hm3
         static void Main(string[] args)
         {
             Console.WriteLine("Какое количество чисел использовать?");
-            int numb = 0;
-            try
-            {
-                numb = int.Parse(Console.ReadLine());
-            }
-            catch (FormatException)
-            {
-                numb = 0;
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("Вы ввели недопустимое число");
-                numb = 0;
-            }
+            int numb = 0;           
             while (numb<=0)
             {            
                 Console.WriteLine("Введите положительное целое число!");           
-                try { numb = int.Parse(Console.ReadLine());} catch (FormatException) { numb=0;}
-            }                      
-            Console.WriteLine("Введите имя Джея(лол)");            
-            Jay jay=new Jay(Name());            
-            Console.WriteLine("Введите имя Молчаливого Боба");
-            SilentBob silentBob=new SilentBob(Name());
+                try
+                {
+                    numb = int.Parse(Console.ReadLine());
+                }
+                catch (FormatException)
+                {
+                    numb =0;
+                }
+                catch (OverflowException)
+                {
+                    numb = 0;
+                    Console.WriteLine("Вы ввели слишком большое число");
+                }
+                
+            }                               
+            Jay jay=new Jay();                        
+            SilentBob silentBob=new SilentBob();
             Numberton numberton=new Numberton();
             numberton.NewNumber += silentBob.FetchNewNumber;
             numberton.NewNumber += jay.FetchNewNumber;
@@ -44,33 +42,24 @@ namespace Ikit_mita_hm3
             }
             if (jay.Score > silentBob.Score)
             {               
-                Console.WriteLine($" У {jay.name} {jay.Score} очков");
-                Console.WriteLine($" У {silentBob.name} {silentBob.Score} очков");
-                Console.WriteLine($" Выиграл {jay.name} ");
+                Console.WriteLine($" У {jay.Name} {jay.Score} очков");
+                Console.WriteLine($" У {silentBob.Name} {silentBob.Score} очков");
+                Console.WriteLine($" Выиграл {jay.Name} ");
             }
             else if (jay.Score < silentBob.Score)
             {
-                Console.WriteLine($" У {jay.name} {jay.Score} очков");
-                Console.WriteLine($" У {silentBob.name} {silentBob.Score} очков");
-                Console.WriteLine($" Выиграл {silentBob.name} ");
+                Console.WriteLine($" У {jay.Name} {jay.Score} очков");
+                Console.WriteLine($" У {silentBob.Name} {silentBob.Score} очков");
+                Console.WriteLine($" Выиграл {silentBob.Name} ");
             }
             else
             {
+                Console.WriteLine($" У {jay.Name} {jay.Score} очков");
+                Console.WriteLine($" У {silentBob.Name} {silentBob.Score} очков");
                 Console.WriteLine("Draw!");
             }
             Console.ReadKey();
-        }
-
-        public static string Name()
-        {
-            string Name = Console.ReadLine(); ;
-            while (Name.Length == 0)
-            {
-                Console.WriteLine("Вы не ввели имя");
-                Name = Console.ReadLine();
-            }
-            return Name;
-        }        
+        }              
     }
    
 }

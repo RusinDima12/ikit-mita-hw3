@@ -11,17 +11,17 @@ namespace ClassLibraryIkit_mita_hm3
         public delegate void Number(int number);
 
         public event Number NewNumber;
-
+        Random rand=new Random();
         public void Generate()
         {
-            Random rand=new Random();
-            NewNumber(rand.Next(1000));
+            
+            NewNumber(rand.Next(0,100));
         }
     }
 
     public static class IsMyEven
     {
-        public static bool IsEven(int number)
+        public static bool IsEven(this int number)
         {
             return number%2 == 0;
         }

@@ -8,14 +8,14 @@ namespace ClassLibraryIkit_mita_hm3
 {
     public abstract class Gambler
     {
-        public readonly string name;
-        public int Score { get; private set; }
+        public string Name { get; set; }
+        public int Score { get; internal set; }
 
         public abstract void FetchNewNumber(int number);
 
-        public Gambler(string Name)
+        public Gambler(string name)
         {
-            name = Name;
+            Name = name;
         }
 
     }

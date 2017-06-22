@@ -3,3 +3,8 @@ C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\Cl
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.csprojResolveAssemblyReference.cache
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.dll
 C:\Users\admin\Documents\Visual Studio 2015\Projects\Курсы\Ikit-mita-hm3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.pdb
+C:\Users\admin\Documents\GitHub\ikit-mita-hw3\Ikit-mita-hw3\ClassLibraryIkit-mita-hm3\bin\Debug\ClassLibraryIkit-mita-hm3.dll
+C:\Users\admin\Documents\GitHub\ikit-mita-hw3\Ikit-mita-hw3\ClassLibraryIkit-mita-hm3\bin\Debug\ClassLibraryIkit-mita-hm3.pdb
+C:\Users\admin\Documents\GitHub\ikit-mita-hw3\Ikit-mita-hw3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\GitHub\ikit-mita-hw3\Ikit-mita-hw3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.dll
+C:\Users\admin\Documents\GitHub\ikit-mita-hw3\Ikit-mita-hw3\ClassLibraryIkit-mita-hm3\obj\Debug\ClassLibraryIkit-mita-hm3.pdb

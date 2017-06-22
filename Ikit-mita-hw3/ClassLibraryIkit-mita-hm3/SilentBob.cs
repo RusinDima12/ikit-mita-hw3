@@ -8,14 +8,14 @@ namespace ClassLibraryIkit_mita_hm3
 {
     public class SilentBob:Gambler
     {
-        public int Score { get; private set; }
-        public SilentBob(string Name) : base(Name)
+        
+        public SilentBob() : base("SilentBob")
         {
         }
 
         public override void FetchNewNumber(int number)
         {
-            if (!IsMyEven.IsEven(number))
+            if (!number.IsEven())
             {
                 Score++;
             }
